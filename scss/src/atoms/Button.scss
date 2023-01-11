@@ -1,0 +1,19 @@
+@import '../foundation/all';
+
+.btn{
+    border: none;
+    border-radius: map-get($map: $spacing, $key: 'xxxs');
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+    padding: map-get($map: $spacing, $key: 'xxs') map-get($map: $spacing, $key: 'sm');
+}
+
+.btn-primary{
+    background-color: $btn-primary-bg-color;
+    color: $btn-primary-color;
+}
+
+.btn:hover{
+    background-color:$btn-primary-bg-hover;
+    
+}
